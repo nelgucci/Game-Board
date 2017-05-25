@@ -1,0 +1,155 @@
+/**
+ * styles.css
+ *
+ * Containers.
+ */
+
+body {
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+}
+
+.container {
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container header {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#main .form-group {
+    text-align: center;
+}
+
+#main .form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.container footer {
+    font-size: smaller;
+    margin: 20px;
+    text-align: center;
+}
+
+.apology {
+    text-align: center;
+}
+
+/**
+ * Additional buttons.
+ */
+.btn-void {
+    background-color: rgba(51, 51, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(20, 20, 20, 1);
+}
+
+.btn-void:hover {
+    background-color: rgba(40, 40, 40, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+#auts-show-q:hover,
+#auts-show-q:focus,
+#auts-hide-q:hover,
+#auts-hide-q:focus {
+    cursor: pointer;
+}
+
+/**
+ * AUTS specific styles.
+ */
+#auts-question-label {
+    font-weight: 700;
+}
+
+#auts-question {
+    font-size: 18px;
+}
+
+.auts-number {
+    background-color: rgba(245, 245, 245, 1);
+    border: 1px solid rgba(80, 80, 80, 0.2);
+    color: rgba(20, 20, 20, 0.7);
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0;
+    text-align: center;
+}
+
+.auts-number:hover {
+    background-color: rgba(250, 250, 250, 1);
+    border-color: rgba(80, 80, 80, 0.35);
+    cursor: pointer;
+
+    -webkit-box-shadow: inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 20px 10px rgba(255, 255, 255, 0.3);
+}
+
+.auts-number.blue {
+    background-color: rgba(66, 133, 244, 1);
+    color: #fff;
+}
+
+.auts-number.blue:hover {
+    background-color: rgba(69, 140, 255, 1);
+    -webkit-box-shadow: inset 0 0 20px 10px rgba(74, 145, 255, 0.3);
+    box-shadow: inset 0 0 20px 10px rgba(74, 145, 255, 0.3);
+}
+
+.auts-number.red {
+    background-color: rgba(234, 67, 53, 1);
+    color: #fff;
+}
+
+.auts-number.red:hover {
+    background-color: rgba(245, 72, 56, 1);
+    -webkit-box-shadow: inset 0 0 20px 10px rgba(250, 77, 61, 0.3);
+    box-shadow: inset 0 0 20px 10px rgba(250, 77, 61, 0.3);
+}
+
+.auts-number.void {
+    background-color: rgba(40, 40, 40, 1);
+    color: #fff;
+}
+
+.auts-number.void:hover {
+    background-color: rgba(51, 51, 51, 1);
+    -webkit-box-shadow: inset 0 0 20px 10px rgba(56, 56, 56, 0.3);
+    box-shadow: inset 0 0 20px 10px rgba(56, 56, 56, 0.3);
+}
+
+.auts-number a {
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 100%
+}
+
+.team-option {
+    padding: 0;
+}
+
+.btn-close {
+    margin-left: 9px;
+}
+
+/**
+ * Header section.
+ */
+header .label {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0 0 10px;
+}

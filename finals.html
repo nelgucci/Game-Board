@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>AUTS &#124; Finals</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles-1.1.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main2.js"></script>
+
+        <style>
+            .auts-number a span {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <header>
+                <img alt="AUTS" src="img/logo.png"/>
+                <span class="label">Finals</span>
+            </header>
+
+            <section id="main">
+                <div class="row"></div>
+
+                <div class="modal fade" id="auts-questionnaire" tabindex="-1" role="dialog" aria-labelledby="auts-question-label">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!-- <h4 class="modal-title" id="auts-question-label">Letter</h4>
+                                <a class="" id="auts-show-q" type="button">
+                                    Show question
+                                </a>
+                                <a class="hidden" id="auts-hide-q" type="button">
+                                    Hide question
+                                </a> -->
+                            </div>
+
+                            <div class="modal-body hidden" id="auts-question">
+                                Badoodles: Schnitzel
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-default pull-left" id="auts-timer-btn" type="button">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-time"></span>
+                                    <span id="auts-timer-label">5 seconds</span>
+                                </button>
+                                <!-- <button class="btn btn-default pull-left" id="auts-show-ans" type="button">Show answer</button> -->
+
+                                <label class="radio-inline team-option void">
+                                    <input class="hidden" type="radio" name="team-option" id="team-void" value="void">
+                                    <span class="btn btn-void" data-dismiss="modal">
+                                        <span aria-hidden="true" class="glyphicon glyphicon-remove"></span>
+                                        Void
+                                    </span>
+                                </label>
+                                <label class="radio-inline team-option red">
+                                    <input class="hidden" type="radio" name="team-option" id="team-red" value="red">
+                                    <span class="btn btn-danger btn-red" data-dismiss="modal">
+                                        <span aria-hidden="true" class="glyphicon glyphicon-apple"></span>
+                                        Red
+                                    </span>
+                                </label>
+                                <label class="radio-inline team-option blue">
+                                    <input class="hidden" type="radio" name="team-option" id="team-blue" value="blue">
+                                    <span class="btn btn-primary btn-blue" data-dismiss="modal">
+                                        <span aria-hidden="true" class="glyphicon glyphicon-cloud"></span>
+                                        Blue
+                                    </span>
+                                </label>
+
+                                <button class="btn btn-default btn-close" type="button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>Brought to you by <em>UESB - IEEE</em></p>
+                <!-- <p>Arbyn Acosta &copy; 2016</p> -->
+            </footer>
+        </div>
+    </body>
+</html>
